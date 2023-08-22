@@ -4,12 +4,11 @@ import random
 import re
 import sys
 
-#
-# Complete the 'timeConversion' function below.
-#
-# The function is expected to return a STRING.
-# The function accepts STRING s as parameter.
-#
+#Complete the timeConversion function in the editor below. It should return a new string representing the input time in 24 hour format.
+
+#timeConversion has the following parameter(s):
+
+#string s: a time in  hour format
 
 def timeConversion(s):
     normal_time = s[8:10]
@@ -45,4 +44,4 @@ def timeConversion(s):
         
         
     else:
-        return "something is not right"
+        return "something is timley right"
